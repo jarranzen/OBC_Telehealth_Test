@@ -21,7 +21,7 @@ const App = () => {
     <TranslationProvider>
       <ConferenceCreateProvider>
         <CommsProvider
-          token={YOUR_TOKEN} 
+          token={'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkb2xieS5pbyIsImlhdCI6MTY4MTg2NDEyMywic3ViIjoiZ21sZEhpNmRYVnZyN0RQU1N4Y05ZQT09IiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9DVVNUT01FUiJdLCJ0YXJnZXQiOiJzZXNzaW9uIiwib2lkIjoiNjYwNzlmZjEtNzYxZC00MjQ1LTlmNGMtMzliNzdiM2EyNDg1IiwiYWlkIjoiYjJmMjI3ZGQtZjcxMS00ODYwLWFmNTAtMWJkNzAxYTc5YWE2IiwiYmlkIjoiOGEzNjhjZWU4NzcwMmNhNTAxODc3OTUzODlkZDNmZjAiLCJleHAiOjE2ODE5NTA1MjN9.yfbnwwnGx6PwEtHnH4QlHZeYGUAvh4cGF49WJWwEP46HykH5uhq-Z41LMX2IO_2SY3bGNVRwJXwQf8sp2Ef0FA'} 
           packageUrlPrefix={`${window.location.origin}${
             import.meta.env.BASE_URL
           }assets/wasm`}
